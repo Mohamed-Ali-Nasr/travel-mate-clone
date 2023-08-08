@@ -9,6 +9,9 @@
     "build": "rimraf dist && npx tsc",
     "lint": "eslint . --ext .ts"
   },
+  "engines": {
+    "node": ">=16.9"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
